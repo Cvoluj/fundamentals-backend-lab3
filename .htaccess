@@ -16,3 +16,6 @@ RewriteRule ^subscribers/add$                      views/subscribers/add_subscri
 RewriteRule ^subscribers/edit/([0-9]+)$            views/subscribers/edit_subscriber.php?id=$1         [L,QSA]
 RewriteRule ^subscribers/delete/([0-9]+)$          views/subscribers/delete_subscriber.php?id=$1       [L,QSA]
 RewriteRule ^subscribers/subscribe/([0-9]+)$       views/subscribers/subscribe.php?id=$1               [L,QSA]
+
+RewriteRule ^statistics/?$              views/statistics.php                   [L,QSA]
+RewriteRule ^search/?$                  views/search.php                       [L,QSA]

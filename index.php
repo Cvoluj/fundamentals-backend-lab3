@@ -89,7 +89,9 @@ $mysql_connection->close();
 <div>
   <h3>Actions:</h3>
   <a href="/lab3/subscribers">List Subscribers</a> |
-  <a href="/lab3/newsletters">List Newsletters</a>
+  <a href="/lab3/newsletters">List Newsletters</a> |
+  <a href="/lab3/statistics">Statistics</a> |
+  <a href="/lab3/search">Search</a>
 </div>
 
 </body>
