@@ -95,6 +95,7 @@ $mostSubscribed = $result->fetch_assoc();
             </div>
         </div>
     <?php endif; ?>
+    <p><a href="/lab3/">Back to Main</a></p>
 </div>
 </body>
 </html>

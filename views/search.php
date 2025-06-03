@@ -110,7 +110,7 @@ $results = $res ? $res->fetch_all(MYSQLI_ASSOC) : [];
     <?php elseif ($q !== '' || $pattern !== '' || ($from !== '' && $to !== '')): ?>
         <div class="alert alert-warning">No records found.</div>
     <?php endif; ?>
+    <p><a href="/lab3/">Back to Main</a></p>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
